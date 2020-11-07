@@ -1,0 +1,34 @@
+group: UIBK - R, S, T
+
+Employee = {
+employee_id, employee_name, street, city
+
+1,'Bruno', 'Rua do Breiner', 'Porto'
+2, 'Elsa', 'Rua Garrett', 'Lisboa'
+3, 'José', 'Rua do Comércio', 'Lisboa'
+4, 'João', 'Rua do Rosário', 'Porto'
+5, 'Miguel', 'Rua do Louriero', 'Porto'
+}
+
+Works = {
+employee_id, company_id, salary
+
+1, 1, 55000
+2, 2, 21500
+3, 3, 12500
+4, 2, 12500
+5, 1, 2000
+}
+
+Company = {
+company_id, company_name, city
+1, 'First Bank Corporation', 'Porto'
+2, 'Small Bank Corporation', 'Lisboa'
+3, 'UMINHO', 'Braga'
+}
+
+Manages = {
+  employee_id, manager_id
+	1,2
+	3,4
+}
